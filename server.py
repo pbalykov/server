@@ -5,7 +5,7 @@ soc=socket.socket()
 soc.bind((d,9090))
 soc.listen(5)
 
-a=[soc]#пидоры 
+a=[soc]# 
 b=[]#пытающися подключится
 nik={}#Ники
 sob={}#приемник сообшеня
